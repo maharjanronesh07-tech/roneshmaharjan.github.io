@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101522">
+  <meta name="description" content="Ronesh Maharajan — aspiring software developer exploring web development, AI and robotics.">
+  <meta property="og:title" content="Ronesh Maharajan | Portfolio">
+  <meta property="og:description" content="Learning, building and turning ideas into useful projects.">
+  <meta property="og:type" content="website">
+  <title>Ronesh Maharajan | Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('ronesh-theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');</script>
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ronesh home"><span class="brand-mark">R</span><span>RONESH<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme"><span class="theme-icon" aria-hidden="true">☼</span><span class="theme-label">Light mode</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & BUILDING</p>
+        <h1>Hey, I'm <span class="gradient-text">Ronesh<br class="desktop-break"> Maharajan.</span></h1>
+        <p class="hero-role">Aspiring Software Developer <span aria-hidden="true">·</span> AI &amp; Robotics Enthusiast</p>
+        <p class="hero-description">I'm a BCA student at Prime College, learning new technologies and building websites and practical software projects along the way.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-icon">⌁</span> Nepal</span><span class="meta-separator"></span><span>Building one project at a time</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract technology artwork">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="art-card art-card-main"><div class="art-window"><i></i><i></i><i></i><span>portfolio.js</span></div><div class="code-lines"><span><b>01</b> <em>const</em> goal = <strong>"build"</strong>;</span><span><b>02</b> <em>while</em> (learning) {</span><span><b>03</b> &nbsp; createSomething();</span><span><b>04</b> }</span></div><div class="art-footer"><span class="pulse"></span> Always learning</div></div>
+        <div class="float-chip chip-top"><span class="chip-symbol">✳</span><span><b>Curiosity</b><small>drives progress</small></span></div>
+        <div class="float-chip chip-bottom"><span class="chip-symbol chip-purple">⌘</span><span><b>Ideas → Reality</b><small>one line at a time</small></span></div>
+        <div class="art-spark spark-a">✦</div><div class="art-spark spark-b">✧</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious mind.<br><span class="muted-heading">Builder's mindset.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p class="large-copy">I'm currently studying <strong>Bachelor of Computer Applications (BCA)</strong> at Prime College and exploring how technology can solve real-world problems.</p><p>I enjoy learning new programming languages, creating websites, and improving my projects step by step. I'm especially interested in growing toward software development, artificial intelligence, and robotics.</p><p>This portfolio is my digital home for the things I'm learning, building, and working toward.</p></div>
+        <div class="about-stats"><article class="stat-card"><span class="stat-icon">⌘</span><strong id="age-value">Curious</strong><span id="age-caption">Always learning</span></article><article class="stat-card"><span class="stat-icon">◈</span><strong>BCA</strong><span>Computer Applications</span></article><article class="stat-card"><span class="stat-icon">↗</span><strong>Build</strong><span>Learn by doing</span></article><p class="privacy-note" id="age-note">Age is not displayed until a private age endpoint is configured.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Tools I'm learning<br><span class="muted-heading">&amp; growing with.</span></h2><p class="section-intro">A growing toolkit. I'll add more as I gain experience and build with them.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon orange">5</span><span class="skill-tag">FOUNDATIONS</span></div><h3>HTML</h3><p>Structuring accessible, meaningful web pages.</p><div class="skill-track"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon blue">✳</span><span class="skill-tag">STYLING</span></div><h3>CSS</h3><p>Creating responsive layouts and thoughtful interfaces.</p><div class="skill-track"><span style="width:58%"></span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon yellow">JS</span><span class="skill-tag">IN PROGRESS</span></div><h3>JavaScript</h3><p>Adding interactivity and useful behavior to websites.</p><div class="skill-track"><span style="width:38%"></span></div></article>
+        <article class="skill-card skill-next"><div class="skill-top"><span class="skill-icon purple">＋</span><span class="skill-tag">ON MY RADAR</span></div><h3>What's next?</h3><p>React, backend development, databases, AI and robotics as I progress.</p><a href="#contact" class="text-link">Follow my journey <span aria-hidden="true">↗</span></a></article>
+      </div>
+      <p class="fine-print">Skill bars are illustrative, not formal proficiency scores. Update or remove them as your experience changes.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading heading-row"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with a purpose.</h2><p class="section-intro">A couple of practical projects I'm developing. Their status and links can be updated in <code>config.js</code>.</p></div><span class="section-count">02 PROJECT IDEAS</span></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-visual project-pos"><div class="mini-dashboard"><div class="mini-side"><span></span><span></span><span></span><span></span></div><div class="mini-main"><div class="mini-title"></div><div class="mini-stats"><i></i><i></i><i></i></div><div class="mini-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div><span class="project-number">PROJECT 01</span></div><div class="project-body"><div class="project-label">BUSINESS SOFTWARE</div><h3>Restaurant POS &amp; Inventory</h3><p>An integrated restaurant management concept combining point-of-sale, stock tracking, table orders and double-entry accounting.</p><div class="tag-row"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div><div class="project-links"><span class="status-label"><i></i> In development</span><a href="#contact" class="text-link">Ask me about it ↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual project-finance"><div class="finance-visual"><div class="finance-top"><span>Overview</span><span>•••</span></div><div class="finance-balance"><small>Total balance</small><strong>Rs. ———</strong><span>Sample dashboard concept</span></div><div class="finance-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="finance-donut"></div></div><span class="project-number">PROJECT 02</span></div><div class="project-body"><div class="project-label">PERSONAL FINANCE</div><h3>Finance Tracker</h3><p>A personal finance app concept for recording transactions, tracking balances and visualizing spending over time.</p><div class="tag-row"><span>JavaScript</span><span>Charts</span><span>Database</span></div><div class="project-links"><span class="status-label"><i></i> In development</span><a href="#contact" class="text-link">Ask me about it ↗</a></div></div></article>
+      </div>
+      <p class="fine-print">Project descriptions are based on the current project goals. Add repository and live-demo links only when those versions are ready to share.</p>
+    </section>
+
+    <section class="section-wrap section-block journey-section" id="journey">
+      <div class="section-heading"><p class="eyebrow">04 / THE JOURNEY</p><h2>Progress over perfection.</h2><p class="section-intro">A simple snapshot of where I am now and what I'm working toward.</p></div>
+      <div class="timeline"><article class="timeline-item current"><span class="timeline-dot"></span><div class="timeline-date">CURRENT CHAPTER</div><h3>BCA at Prime College</h3><p>Currently in the 2nd semester, strengthening my foundations and learning through hands-on projects.</p><span class="timeline-pill">In progress</span></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">BUILDING EXPERIENCE</div><h3>Make useful software</h3><p>Practice web development by building portfolio projects, improving code quality and learning how full-stack systems fit together.</p></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">FUTURE DIRECTION</div><h3>Explore AI &amp; robotics</h3><p>Grow my programming skills and explore intelligent systems and robotics as my knowledge develops.</p></article></div>
+      <div class="education-config"><div><span class="config-icon">◷</span><div><strong>Education progress</strong><p id="education-status">Semester details can be configured in config.js.</p></div></div><div class="progress-track" aria-label="Education progress"><span id="education-progress"></span></div><span class="progress-caption" id="education-caption">Configure your semester start date for a progress estimate.</span></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-glow"></div><div class="section-wrap contact-inner"><div class="section-heading"><p class="eyebrow">05 / SAY HELLO</p><h2>Have an idea?<br><span class="muted-heading">Let's talk.</span></h2><p class="section-intro">Have a project idea, a question, or just want to connect? Send a message — I'd be happy to hear from you.</p></div>
+      <div class="contact-grid"><div class="contact-details"><a class="contact-email" id="contact-email-link" href="mailto:maharjanronesh7@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL ME</small><strong id="contact-email-text">maharjanronesh7@gmail.com</strong></span><span class="contact-arrow">↗</span></a><div class="contact-note"><span class="note-icon">↳</span><p>Prefer email? Your email app will open with a new message. Or use the form to send a note directly.</p></div><div class="response-note"><span class="status-dot"></span> Open to conversations and learning opportunities</div></div>
+        <form class="contact-form" id="contact-form"><div class="form-heading"><h3>Send a message</h3><p>Fields marked * are required.</p></div><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="Jane Smith"><label for="sender-email">Your email *</label><input id="sender-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="jane@example.com"><label for="subject">Subject</label><input id="subject" name="subject" maxlength="160" placeholder="What's this about?"><label for="message">Message *</label><textarea id="message" name="message" required maxlength="5000" rows="5" placeholder="Write your message here..."></textarea><input class="honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"><button class="button button-primary submit-button" type="submit"><span class="submit-label">Send message</span><span aria-hidden="true">↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite">Contact form needs a Formspree endpoint to deliver messages. See README.md.</p><p class="form-privacy">Your message is sent through the configured form provider. Never include passwords or sensitive information.</p></form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-wrap footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">R</span><span>RONESH<span class="brand-dot">.</span></span></a><p>Learning today. Building for tomorrow.</p><div class="social-links" id="social-links" aria-label="Social media links"><a class="social-link" href="https://github.com/maharjanronesh07-tech" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.08c-3.1.67-3.75-1.31-3.75-1.31-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 1.93 3.65 1.47.1-.72.4-1.21.72-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.29-2.61 5.23-5.1 5.51.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></a><a class="social-link" href="mailto:maharjanronesh7@gmail.com" aria-label="Email Ronesh"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 17V7A1.5 1.5 0 0 1 3 5.5Zm-.1 2.2 9.1 6.1 9.1-6.1"/></svg></a></div></div><div class="section-wrap footer-bottom"><span>© <span id="current-year"></span> Ronesh Maharajan</span><span>Designed with curiosity <span class="heart">♥</span></span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
